@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Using innerText</title>
+</head>
+
+<body>
+    Enter a Name: <input type="text" id="emp" value="" />
+    <p>
+        <input type="button" id="bt" value="Change Label Text" onclick="changeLabel()" />
+    </p>
+    <label id="lblEmp">N/A</label>
+</body>
+<script>
+    function changeLabel() {
+        let lbl = document.getElementById('lblEmp');
+        let empName = document.getElementById('emp').value;
+
+        lbl.innerText = empName; // TREATS EVERY CONTENT AS TEXT.
+    }
+</script>
+
+</html>

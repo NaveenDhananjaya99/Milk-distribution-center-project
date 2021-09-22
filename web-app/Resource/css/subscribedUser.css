@@ -1,0 +1,27 @@
+.subscribe-package {
+    background-color: rgb(234, 247, 255);
+}
+
+.package-details {
+    /*   box-sizing: border-box; */
+    margin-left: 200px;
+    margin-top: 55px;
+    word-spacing: 1px;
+}
+
+.package-details h3 {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.package-image img {
+    display: flex;
+    float: right;
+    margin-right: 24px;
+    width: 350px;
+    height: 90%;
+    margin-top: -300px;
+    margin-bottom: 3px;
+    position: relative;
+    ;
+}

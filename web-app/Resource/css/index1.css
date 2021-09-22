@@ -1,0 +1,222 @@
+.load {
+    animation: slide 2s;
+}
+
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/image1.jpg);
+    }
+    20% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/image1.jpg);
+    }
+    20.01% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/image2.jpg);
+    }
+    40% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/image2.jpg);
+    }
+    40.01% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/background1.jpg);
+    }
+    60% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/background1.jpg);
+    }
+    60.01% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/background2.jpg);
+    }
+    80% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/background2.jpg);
+    }
+    80.01% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/background3.jpg);
+    }
+    100% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.486)), url(../image/background3.jpg);
+    }
+}
+
+
+/*----------------------navigation----------------------*/
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+main-nav li a:active {
+    border-bottom: 2px solid/*#e67e22*/
+    #2980b9;
+}
+
+.hero-text-box {
+    position: relative;
+    width: 1140px;
+    top: 150px;
+    left: 500px;
+}
+
+.hero-text-box a {
+    margin-left: 150px;
+}
+
+.logo {
+    max-width: 100px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+
+/*-----------buttons--------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 5px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    transition: backgroung-color 0.2s border 0.2s color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #ce430c;
+    border: 1px solid #686de0;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghots:link,
+.btn-ghots:visited {
+    border: 1px solid #e67e22;
+    color: #31087e;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #34495e;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
+    border: 1px solid #2980b9;
+}
+
+.btn-ghots:hover,
+.btn-ghots:active {
+    border: 1px solid #2980b9;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    padding: 40px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links a:visited {
+    text-decoration: none;
+    border: 0px;
+    color: rgb(100, 96, 96);
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links a:active {
+    color: rgb(247, 242, 242);
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}

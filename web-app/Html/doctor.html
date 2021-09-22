@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doctor</title>
+    <link rel="stylesheet" href="../vendors/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/stylelogin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/css/7.1 Grid.css">
+    <link rel="stylesheet" href="../vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="../Resource/css/header.css">
+    <link rel="stylesheet" href="../Resource/css/doctor.css">
+    <link rel="stylesheet" href="../Resource/css/commenCssForUSubscribedAndSubscribed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../Resource/js/pieChart.js"></script>
+    <script src="../Resource/js/barChart.js"></script>
+    <link rel="stylesheet" href="../Resource/css/popup.css">
+
+    <!--   <link rel="stylesheet" href="../sample/s1.css"> -->
+</head>
+
+<body>
+    <header>
+        <div class="slider">
+            <div class="load">
+            </div>
+            <div class="containt">
+                <nav>
+                    <div class="row">
+                        <div class="Hlogo">
+                            <a href="home.php">
+                                <img src="/Resource/image/logo.png" alt="logo" class="logo" width="200px">
+                            </a>
+                        </div>
+                        <ul class="main-nav">
+
+                            <li> <a href="../php/login.php"> log out</a> </li>
+                            <li> <a href="">  account</a> </li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <div class="hero-text-box">
+                    <h1>Goodbye junk food.</h1>
+
+
+                </div>
+
+
+    </header>
+    <div class="second-nav">
+        <ul class="secondd-nav-ul">
+
+            <li> <a href="../php/login.php">pending</a> </li>
+            <li> <a href="#section-city"> hold</a> </li>
+            <li> <a href="#section-price"> finishd</a> </li>
+        </ul>
+    </div>
+
+    <section class="to-dos">
+        <div class="row">
+            <h2> summery </h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2">
+
+
+                <div id="piechart_3d" class="piechart"></div>
+
+            </div>
+            <div class="col span-1-of-2">
+
+
+                <div id="columnchart_values" class="columnchart"></div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="row">
+            <h2> Active medical issues </h2>
+        </div>
+
+        <div class="row">
+
+            <div class="col span-1-of-2">
+
+                <div class="detail-box">
+                    <div class="hedding">
+                        <h4>date </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>discription </h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!lorem30 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis odit mollitia officiis saepe reprehenderit magni corrupti alias
+                            vero recusandae!
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!</p>
+                    </div>
+                    <div class="hedding">
+                        <h4>vanue </h4>
+                    </div>
+
+                    <div>
+
+                        <p>Lorem ipsum dolor, sit<br> amet consectetur adipisicing elit.<br> Libero, similique!</p>
+                    </div>
+
+                    <div class="hedding">
+                        <h4>famer name </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>contact number</h4>
+                    </div>
+                    <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="set as a pennding"> </form>
+                    <div class="btn-in-vet">
+
+                        <a class="btn popup-btn">Submit report</a>
+
+                    </div>
+
+
+
+
+                    <div class="popup-view">
+                        <div class="popup-card">
+                            <a><i class="btn fas fa-times close-btn"></i></a>
+
+                            <div class="info">
+                                <h2>Submit the report<br></h2>
+
+
+
+                                <div class="row">
+
+
+                                    <form action="#" onsubmit="return validateFormlogin()" method="post" class="contact-form" name="myForm">
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="date">DATE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="date" id="date" placeholder="date" name="date" required>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="note">VETERINARY_NOTE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+
+                                                <textarea type="textarea" name="note" id="note" placeholder="note" required>        </textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2 status">
+                                                <label for="status">STATUS</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="text" id="status" placeholder="current status" name="status">
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-3">
+                                                <label>&nbsp;</label>
+                                            </div>
+                                            <div class="col span-2-of-3">
+                                                <input type="submit" name="submit" class="btn btn-full" value="submit">
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+
+
+                                </div>
+
+
+
+
+
+                                <!--  <a href="#" class="add-cart-btn">Submit</a> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="col span-1-of-2">
+                <div class="detail-box">
+                    <div class="hedding">
+                        <h4>date </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>discription </h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!lorem30 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis odit mollitia officiis saepe reprehenderit magni corrupti alias
+                            vero recusandae!
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!</p>
+                    </div>
+                    <div class="hedding">
+                        <h4>vanue </h4>
+                    </div>
+
+                    <div>
+
+                        <p>Lorem ipsum dolor, sit<br> amet consectetur adipisicing elit.<br> Libero, similique!</p>
+                    </div>
+
+                    <div class="hedding">
+                        <h4>famer name </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>contact number</h4>
+                    </div>
+                    <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="set as a pennding"> </form>
+                    <div class="btn-in-vet">
+
+                        <a class="btn popup-btn">Submit report</a>
+
+                    </div>
+
+
+
+
+                    <div class="popup-view">
+                        <div class="popup-card">
+                            <a><i class="btn fas fa-times close-btn"></i></a>
+
+                            <div class="info">
+                                <h2>Submit the report<br></h2>
+
+
+
+                                <div class="row">
+
+
+                                    <form action="#" onsubmit="return validateFormlogin()" method="post" class="contact-form" name="myForm">
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="date">DATE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="date" id="date" placeholder="date" name="date" required>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="note">VETERINARY_NOTE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+
+                                                <textarea type="textarea" name="note" id="note" placeholder="note" required>        </textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2 status">
+                                                <label for="status">STATUS</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="text" id="status" placeholder="current status" name="status">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-3">
+                                                <label>&nbsp;</label>
+                                            </div>
+                                            <div class="col span-2-of-3">
+                                                <input type="submit" name="submit" class="btn btn-full" value="submit">
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+
+
+                                <!--  <a href="#" class="add-cart-btn">Submit</a> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="row">
+
+            <div class="col span-1-of-2">
+                <div class="detail-box">
+                    <div class="hedding">
+                        <h4>date </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>discription </h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!lorem30 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis odit mollitia officiis saepe reprehenderit magni corrupti alias
+                            vero recusandae!
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!</p>
+                    </div>
+                    <div class="hedding">
+                        <h4>vanue </h4>
+                    </div>
+
+                    <div>
+
+                        <p>Lorem ipsum dolor, sit<br> amet consectetur adipisicing elit.<br> Libero, similique!</p>
+                    </div>
+
+                    <div class="hedding">
+                        <h4>famer name </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>contact number</h4>
+                    </div>
+                    <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="set as a pennding"> </form>
+                    <div class="btn-in-vet">
+
+                        <a class="btn popup-btn">Submit report</a>
+
+                    </div>
+
+
+
+
+                    <div class="popup-view">
+                        <div class="popup-card">
+                            <a><i class="btn fas fa-times close-btn"></i></a>
+
+                            <div class="info">
+                                <h2>Submit the report<br></h2>
+
+
+
+                                <div class="row">
+
+
+                                    <form action="#" onsubmit="return validateFormlogin()" method="post" class="contact-form" name="myForm">
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="date">DATE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="date" id="date" placeholder="date" name="date" required>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="note">VETERINARY_NOTE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+
+                                                <textarea type="textarea" name="note" id="note" placeholder="note" required>        </textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2 status">
+                                                <label for="status">STATUS</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="text" id="status" placeholder="current status" name="status">
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-3">
+                                                <label>&nbsp;</label>
+                                            </div>
+                                            <div class="col span-2-of-3">
+                                                <input type="submit" name="submit" class="btn btn-full" value="submit">
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+
+
+                                </div>
+
+
+
+
+
+                                <!--  <a href="#" class="add-cart-btn">Submit</a> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="col span-1-of-2">
+                <div class="detail-box">
+                    <div class="hedding">
+                        <h4>date </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>discription </h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!lorem30 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis odit mollitia officiis saepe reprehenderit magni corrupti alias
+                            vero recusandae!
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!</p>
+                    </div>
+                    <div class="hedding">
+                        <h4>vanue </h4>
+                    </div>
+
+                    <div>
+
+                        <p>Lorem ipsum dolor, sit<br> amet consectetur adipisicing elit.<br> Libero, similique!</p>
+                    </div>
+
+                    <div class="hedding">
+                        <h4>famer name </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>contact number</h4>
+                    </div>
+                    <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="set as a pennding"> </form>
+                    <div class="btn-in-vet">
+
+                        <a class="btn popup-btn">Submit report</a>
+
+                    </div>
+
+
+
+
+                    <div class="popup-view">
+                        <div class="popup-card">
+                            <a><i class="btn fas fa-times close-btn"></i></a>
+
+                            <div class="info">
+                                <h2>Submit the report<br></h2>
+
+
+
+                                <div class="row">
+
+
+                                    <form action="#" onsubmit="return validateFormlogin()" method="post" class="contact-form" name="myForm">
+
+
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="date">DATE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="date" id="date" placeholder="date" name="date" required>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2">
+                                                <label for="note">VETERINARY_NOTE</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+
+                                                <textarea type="textarea" name="note" id="note" placeholder="note" required>        </textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-2 status">
+                                                <label for="status">STATUS</label>
+                                            </div>
+                                            <div class="col span-1-of-2">
+                                                <input type="text" id="status" placeholder="current status" name="status">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col span-1-of-3">
+                                                <label>&nbsp;</label>
+                                            </div>
+                                            <div class="col span-2-of-3">
+                                                <input type="submit" name="submit" class="btn btn-full" value="submit">
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+
+
+                                <!--  <a href="#" class="add-cart-btn">Submit</a> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="row">
+
+            <div class="col span-1-of-2">
+                <div class="detail-box">
+                    <div class="hedding">
+                        <h4>date </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>discription </h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!lorem30 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis odit mollitia officiis saepe reprehenderit magni corrupti alias
+                            vero recusandae!
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!</p>
+                    </div>
+                    <div class="hedding">
+                        <h4>vanue </h4>
+                    </div>
+
+                    <div>
+
+                        <p>Lorem ipsum dolor, sit<br> amet consectetur adipisicing elit.<br> Libero, similique!</p>
+                    </div>
+
+                    <div class="hedding">
+                        <h4>famer name </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>contact number</h4>
+                    </div>
+
+                    <div class="btn-in-vet">
+                        <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="subscribe"> </form>
+                        <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="subscribe"> </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col span-1-of-2">
+                <div class="detail-box">
+                    <div class="hedding">
+                        <h4>date </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>discription </h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!lorem30 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis odit mollitia officiis saepe reprehenderit magni corrupti alias
+                            vero recusandae!
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, similique!</p>
+                    </div>
+                    <div class="hedding">
+                        <h4>vanue </h4>
+                    </div>
+
+                    <div>
+
+                        <p>Lorem ipsum dolor, sit<br> amet consectetur adipisicing elit.<br> Libero, similique!</p>
+                    </div>
+
+                    <div class="hedding">
+                        <h4>famer name </h4>
+                    </div>
+                    <div class="hedding">
+                        <h4>contact number</h4>
+                    </div>
+
+                    <div class="btn-in-vet">
+                        <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="subscribe"> </form>
+                        <form action="#" method="POST"><input type="submit" name="3month" class="btn btn-full" value="subscribe"> </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <script src="../Resource/js/popup.js"></script>
+
+</body>
+
+</html>

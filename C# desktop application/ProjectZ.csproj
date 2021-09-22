@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB5588DE-8679-410D-BC05-001A60D02F91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjectZ</RootNamespace>
+    <AssemblyName>ProjectZ</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.11.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.11.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.1.11\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.1.11\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.23\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\QRCoder.1.4.1\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2020.0.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>packages\SSH.NET.2020.0.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.23\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.23\lib\net452\Zstandard.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.6\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.6\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddLiveStocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLiveStocks.Designer.cs">
+      <DependentUpon>AddLiveStocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLoanApplicant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLoanApplicant.Designer.cs">
+      <DependentUpon>AddLoanApplicant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLoanProposal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLoanProposal.Designer.cs">
+      <DependentUpon>AddLoanProposal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMedicalIsuue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMedicalIsuue.Designer.cs">
+      <DependentUpon>AddMedicalIsuue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDeliveryPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDeliveryPerson.Designer.cs">
+      <DependentUpon>AddDeliveryPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSellingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSellingReport.Designer.cs">
+      <DependentUpon>AddSellingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVeterinarion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVeterinarion.Designer.cs">
+      <DependentUpon>AddVeterinarion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddWelfareProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWelfareProject.Designer.cs">
+      <DependentUpon>AddWelfareProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcPayments.Designer.cs">
+      <DependentUpon>CalcPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcSalary.Designer.cs">
+      <DependentUpon>CalcSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateLogin.Designer.cs">
+      <DependentUpon>CreateLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\DataSet_ID.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ID.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ReceiptQR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptQR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ReportData.cs">
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ReportData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\DataSetQR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetQR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditVeterinarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditVeterinarian.Designer.cs">
+      <DependentUpon>EditVeterinarian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmers.Designer.cs">
+      <DependentUpon>Farmers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandleOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandleOrders.Designer.cs">
+      <DependentUpon>HandleOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiveStock.Designer.cs">
+      <DependentUpon>LiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyClasses\ZAutocomplete.cs" />
+    <Compile Include="MyClasses\ZAutoGenarate.cs" />
+    <Compile Include="MyClasses\ConnectDB.cs" />
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFarmer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFarmer.Designer.cs">
+      <DependentUpon>AddFarmer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanProposals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoanProposals.Designer.cs">
+      <DependentUpon>LoanProposals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyClasses\ZCreateID.cs" />
+    <Compile Include="MyClasses\ZExport.cs" />
+    <Compile Include="MyClasses\ZFormControls.cs" />
+    <Compile Include="MyClasses\ZQR.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DeliveryPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryPerson.Designer.cs">
+      <DependentUpon>DeliveryPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetPrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPrices.Designer.cs">
+      <DependentUpon>SetPrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Veterinarians.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Veterinarians.Designer.cs">
+      <DependentUpon>Veterinarians.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewOrders.Designer.cs">
+      <DependentUpon>ViewOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelfareProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelfareProject.Designer.cs">
+      <DependentUpon>WelfareProject.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddLiveStocks.resx">
+      <DependentUpon>AddLiveStocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLoanApplicant.resx">
+      <DependentUpon>AddLoanApplicant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLoanProposal.resx">
+      <DependentUpon>AddLoanProposal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMedicalIsuue.resx">
+      <DependentUpon>AddMedicalIsuue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDeliveryPerson.resx">
+      <DependentUpon>AddDeliveryPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSellingReport.resx">
+      <DependentUpon>AddSellingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVeterinarion.resx">
+      <DependentUpon>AddVeterinarion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddWelfareProject.resx">
+      <DependentUpon>AddWelfareProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcPayments.resx">
+      <DependentUpon>CalcPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcSalary.resx">
+      <DependentUpon>CalcSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateLogin.resx">
+      <DependentUpon>CreateLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditVeterinarian.resx">
+      <DependentUpon>EditVeterinarian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeliveryPersonID.rdlc" />
+    <EmbeddedResource Include="Farmers.resx">
+      <DependentUpon>Farmers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandleOrders.resx">
+      <DependentUpon>HandleOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiveStock.resx">
+      <DependentUpon>LiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFarmer.resx">
+      <DependentUpon>AddFarmer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanProposals.resx">
+      <DependentUpon>LoanProposals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports\FarmerID.rdlc" />
+    <EmbeddedResource Include="Reports\ReportPaymentReceipt.rdlc" />
+    <EmbeddedResource Include="Reports\ReportDeleveryDocument.rdlc" />
+    <EmbeddedResource Include="DeliveryPerson.resx">
+      <DependentUpon>DeliveryPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPrices.resx">
+      <DependentUpon>SetPrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Veterinarians.resx">
+      <DependentUpon>Veterinarians.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewOrders.resx">
+      <DependentUpon>ViewOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelfareProject.resx">
+      <DependentUpon>WelfareProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Data Sets\DataSet_ID.xsc">
+      <DependentUpon>DataSet_ID.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DataSet_ID.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ID.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data Sets\DataSet_ID.xss">
+      <DependentUpon>DataSet_ID.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ReceiptQR.xsc">
+      <DependentUpon>ReceiptQR.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ReceiptQR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptQR.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data Sets\ReceiptQR.xss">
+      <DependentUpon>ReceiptQR.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ReportData.xsc">
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ReportData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data Sets\ReportData.xss">
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DataSetQR.xsc">
+      <DependentUpon>DataSetQR.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DataSetQR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetQR.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data Sets\DataSetQR.xss">
+      <DependentUpon>DataSetQR.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

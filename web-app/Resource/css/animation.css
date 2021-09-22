@@ -1,0 +1,15 @@
+
+.animation {
+    transform: translateX(250%);
+    transition: transform 0.4s ease;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.animation:nth-of-type(even) {
+    transform: translateX(-250%);
+}
+
+.animation.show {
+    transform: translateX(0);
+}

@@ -1,0 +1,374 @@
+D:\Visual Studios Projects\ProjectZ\bin\Debug\ProjectZ.exe.config
+D:\Visual Studios Projects\ProjectZ\bin\Debug\ProjectZ.exe
+D:\Visual Studios Projects\ProjectZ\bin\Debug\ProjectZ.pdb
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.csprojAssemblyReference.cache
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.Form1.resources
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.Properties.Resources.resources
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.csproj.GenerateResource.cache
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.csproj.CoreCompileInputs.cache
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.exe
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.pdb
+D:\Visual Studios Projects\ProjectZ\bin\Debug\BouncyCastle.Crypto.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Google.Protobuf.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\K4os.Compression.LZ4.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\K4os.Hash.xxHash.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\MySql.Data.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Renci.SshNet.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Buffers.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Memory.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Numerics.Vectors.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Ubiety.Dns.Core.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Zstandard.Net.dll
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Google.Protobuf.pdb
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Google.Protobuf.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\K4os.Compression.LZ4.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\K4os.Hash.xxHash.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\MySql.Data.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\Renci.SshNet.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Buffers.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Memory.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Numerics.Vectors.xml
+D:\Visual Studios Projects\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.csproj.CopyComplete
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.Calculator.resources
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.CalcSalery.resources
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.CalcPayments.resources
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.AddLoanProposal.resources
+D:\Visual Studios Projects\ProjectZ\obj\Debug\ProjectZ.LoanProposals.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\ProjectZ.exe.config
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\ProjectZ.exe
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\ProjectZ.pdb
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Google.Protobuf.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\MySql.Data.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Renci.SshNet.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Buffers.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Memory.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Zstandard.Net.dll
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Google.Protobuf.pdb
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Google.Protobuf.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\MySql.Data.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\Renci.SshNet.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Buffers.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Memory.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.csprojAssemblyReference.cache
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.AddLoanProposal.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.CalcPayments.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.CalcSalery.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.Form1.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.LoanProposals.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.Properties.Resources.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.csproj.GenerateResource.cache
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.csproj.CoreCompileInputs.cache
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.csproj.CopyComplete
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.exe
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.pdb
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.Dashboard.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.Main.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.payroll.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.AddPrices.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.Farmers.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.Veterinarians.resources
+C:\Users\Ronal Kalhara\Desktop\Hirushan\ProjectZ\obj\Debug\ProjectZ.AddVeterinarion.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ProjectZ.exe.config
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ProjectZ.exe
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ProjectZ.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Google.Protobuf.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\MySql.Data.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Renci.SshNet.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Buffers.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Memory.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Zstandard.Net.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Google.Protobuf.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Google.Protobuf.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\MySql.Data.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Renci.SshNet.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Buffers.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Memory.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddLoanProposal.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddVeterinarion.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.CalcPayments.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.Farmers.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.Dashboard.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.Main.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.LoanProposals.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.Properties.Resources.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.Veterinarians.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.csproj.GenerateResource.cache
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.csproj.CoreCompileInputs.cache
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.csproj.CopyComplete
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.exe
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddFarmer.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.EditVeterinarian.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.ViewOrders.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\QRCoder.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.HandleOrders.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.LiveStock.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\RdlCompile.cache
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\RdlCompile.compiled
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\EnvDTE.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\stdole.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.WelfareProject.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddWelfareProject.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddLiveStocks.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddSellingReport.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddLoanApplicant.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddMedicalIsuue.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.CreateLogin.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.Login.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.CalcSalary.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\AForge.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\AForge.Video.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zxing.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zxing.presentation.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\AForge.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\AForge.Video.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zxing.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\zxing.presentation.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ExcelDataReader.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ExcelDataReader.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ExcelDataReader.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.AddDeliveryPerson.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.DeliveryPerson.resources
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.csprojAssemblyReference.cache
+C:\Users\Nadeesh Hirushan\OneDrive\Desktop\ProjectZ\obj\Debug\ProjectZ.SetPrices.resources
+D:\ProjectZ\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ProjectZ\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ProjectZ\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ProjectZ\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ProjectZ\bin\Debug\ProjectZ.exe.config
+D:\ProjectZ\bin\Debug\ProjectZ.exe
+D:\ProjectZ\bin\Debug\ProjectZ.pdb
+D:\ProjectZ\bin\Debug\AForge.dll
+D:\ProjectZ\bin\Debug\AForge.Video.DirectShow.dll
+D:\ProjectZ\bin\Debug\AForge.Video.dll
+D:\ProjectZ\bin\Debug\BouncyCastle.Crypto.dll
+D:\ProjectZ\bin\Debug\ExcelDataReader.DataSet.dll
+D:\ProjectZ\bin\Debug\ExcelDataReader.dll
+D:\ProjectZ\bin\Debug\Google.Protobuf.dll
+D:\ProjectZ\bin\Debug\K4os.Compression.LZ4.dll
+D:\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\ProjectZ\bin\Debug\K4os.Hash.xxHash.dll
+D:\ProjectZ\bin\Debug\LiveCharts.dll
+D:\ProjectZ\bin\Debug\LiveCharts.WinForms.dll
+D:\ProjectZ\bin\Debug\LiveCharts.Wpf.dll
+D:\ProjectZ\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ProjectZ\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ProjectZ\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ProjectZ\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ProjectZ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ProjectZ\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ProjectZ\bin\Debug\MySql.Data.dll
+D:\ProjectZ\bin\Debug\QRCoder.dll
+D:\ProjectZ\bin\Debug\Renci.SshNet.dll
+D:\ProjectZ\bin\Debug\System.Buffers.dll
+D:\ProjectZ\bin\Debug\System.Memory.dll
+D:\ProjectZ\bin\Debug\System.Numerics.Vectors.dll
+D:\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProjectZ\bin\Debug\Ubiety.Dns.Core.dll
+D:\ProjectZ\bin\Debug\Zstandard.Net.dll
+D:\ProjectZ\bin\Debug\zxing.dll
+D:\ProjectZ\bin\Debug\zxing.presentation.dll
+D:\ProjectZ\bin\Debug\EnvDTE.dll
+D:\ProjectZ\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\ProjectZ\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\ProjectZ\bin\Debug\stdole.dll
+D:\ProjectZ\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\ProjectZ\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\ProjectZ\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\ProjectZ\bin\Debug\Microsoft.MSXML.dll
+D:\ProjectZ\bin\Debug\AForge.xml
+D:\ProjectZ\bin\Debug\AForge.Video.xml
+D:\ProjectZ\bin\Debug\AForge.Video.DirectShow.xml
+D:\ProjectZ\bin\Debug\ExcelDataReader.pdb
+D:\ProjectZ\bin\Debug\ExcelDataReader.xml
+D:\ProjectZ\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\ProjectZ\bin\Debug\ExcelDataReader.DataSet.xml
+D:\ProjectZ\bin\Debug\Google.Protobuf.pdb
+D:\ProjectZ\bin\Debug\Google.Protobuf.xml
+D:\ProjectZ\bin\Debug\K4os.Compression.LZ4.xml
+D:\ProjectZ\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\ProjectZ\bin\Debug\K4os.Hash.xxHash.xml
+D:\ProjectZ\bin\Debug\LiveCharts.pdb
+D:\ProjectZ\bin\Debug\LiveCharts.xml
+D:\ProjectZ\bin\Debug\LiveCharts.WinForms.pdb
+D:\ProjectZ\bin\Debug\LiveCharts.WinForms.xml
+D:\ProjectZ\bin\Debug\LiveCharts.Wpf.pdb
+D:\ProjectZ\bin\Debug\LiveCharts.Wpf.xml
+D:\ProjectZ\bin\Debug\MySql.Data.xml
+D:\ProjectZ\bin\Debug\Renci.SshNet.xml
+D:\ProjectZ\bin\Debug\System.Buffers.xml
+D:\ProjectZ\bin\Debug\System.Memory.xml
+D:\ProjectZ\bin\Debug\System.Numerics.Vectors.xml
+D:\ProjectZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProjectZ\bin\Debug\zxing.xml
+D:\ProjectZ\bin\Debug\zxing.presentation.xml
+D:\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ProjectZ\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ProjectZ\obj\Debug\ProjectZ.csprojAssemblyReference.cache
+D:\ProjectZ\obj\Debug\ProjectZ.AddLiveStocks.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddLoanApplicant.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddLoanProposal.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddMedicalIsuue.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddDeliveryPerson.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddSellingReport.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddVeterinarion.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddWelfareProject.resources
+D:\ProjectZ\obj\Debug\ProjectZ.CalcPayments.resources
+D:\ProjectZ\obj\Debug\ProjectZ.CalcSalary.resources
+D:\ProjectZ\obj\Debug\ProjectZ.CreateLogin.resources
+D:\ProjectZ\obj\Debug\ProjectZ.EditVeterinarian.resources
+D:\ProjectZ\obj\Debug\ProjectZ.Farmers.resources
+D:\ProjectZ\obj\Debug\ProjectZ.HandleOrders.resources
+D:\ProjectZ\obj\Debug\ProjectZ.LiveStock.resources
+D:\ProjectZ\obj\Debug\ProjectZ.Login.resources
+D:\ProjectZ\obj\Debug\ProjectZ.Dashboard.resources
+D:\ProjectZ\obj\Debug\ProjectZ.Main.resources
+D:\ProjectZ\obj\Debug\ProjectZ.AddFarmer.resources
+D:\ProjectZ\obj\Debug\ProjectZ.LoanProposals.resources
+D:\ProjectZ\obj\Debug\ProjectZ.Properties.Resources.resources
+D:\ProjectZ\obj\Debug\ProjectZ.DeliveryPerson.resources
+D:\ProjectZ\obj\Debug\ProjectZ.SetPrices.resources
+D:\ProjectZ\obj\Debug\ProjectZ.Veterinarians.resources
+D:\ProjectZ\obj\Debug\ProjectZ.ViewOrders.resources
+D:\ProjectZ\obj\Debug\ProjectZ.WelfareProject.resources
+D:\ProjectZ\obj\Debug\ProjectZ.csproj.GenerateResource.cache
+D:\ProjectZ\obj\Debug\ProjectZ.csproj.CoreCompileInputs.cache
+D:\ProjectZ\obj\Debug\ProjectZ.csproj.CopyComplete
+D:\ProjectZ\obj\Debug\ProjectZ.exe
+D:\ProjectZ\obj\Debug\ProjectZ.pdb
